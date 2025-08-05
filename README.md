@@ -37,17 +37,7 @@ cd form-handler-app
 
 ### Step 2: Install Dependencies
 
-#### Option A: Local Development (Recommended for Development)
-
-```bash
-# Install all dependencies (including dev dependencies)
-npm install
-
-# Verify installation
-npm list
-```
-
-#### Option B: Docker (Recommended for Production)
+#### Docker (Recommended for Production)
 
 ```bash
 # Build the Docker image
@@ -59,19 +49,7 @@ docker images | grep form-handler-app
 
 ## 🏃‍♂️ Running the Application
 
-### Option 1: Local Development
-
-```bash
-# Start the development server with auto-reload
-npm run dev
-
-# Or start the production server
-npm start
-```
-
-**Access the application at:** http://localhost:3000
-
-### Option 2: Docker (Production Ready)
+###  Docker (Production Ready)
 
 ```bash
 # Run the container in the background
@@ -86,12 +64,6 @@ docker logs form-app
 
 **Access the application at:** http://localhost:3000
 
-### Option 3: Quick Start Script (Windows PowerShell)
-
-```powershell
-# Run the quick start script
-.\start.ps1
-```
 
 ## 🧪 Testing the Application
 
@@ -138,24 +110,6 @@ form-handler-app/
 └── README.md             # This documentation
 ```
 
-## 🔧 Development Commands
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server (with auto-reload)
-npm run dev
-
-# Start production server
-npm start
-
-# Check for linting issues
-npm run lint
-
-# Run tests (if configured)
-npm test
-```
 
 ## 🐳 Docker Commands
 
